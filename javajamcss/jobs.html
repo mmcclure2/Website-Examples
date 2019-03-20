@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Your one stop shop for all things coffee</title>
+<meta charset="utf-8">
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="javajam.css" rel="stylesheet">
+<div id ="wrapper">
+<header>
+  <h1>JavaJam Coffee Cafe</h1>
+</header>
+<nav>
+  <ul>
+  <li><a href="Home.html">Home</a></li>
+  <li><a href="menu.html">Menu</a></li>
+  <li><a href="music.html">Music</a></li>
+  <li><a href="jobs.html">Jobs</a></li>
+ </ul>
+</nav>
+<main>
+<h2> Jobs at JavaJam </h2>
+<p> Want to work at JavaJam? Fill out the form below to start your application</p><br>
+<p>Required fields are marked with an asterisk *.</p>
+<form action="process.php" method="post">
+<label> *Name:</label>
+<input type="text" name="first-name" required="required">
+<br>
+<label> *E-mail:</label>
+<input type="email" name="email" required="required">
+<br>
+<label> *Experience: </label>
+<textarea type="message" name="exp" required="required" rows="2" cols="20"></textarea>
+<br>
+<input id="mySubmit" type="Submit" value="Submit">
+</form>
+</main>
+<footer>
+  <small><i>Copyright &copy; 2016 JavaJam Coffee House</i></small>
+  <a href="mailto:yourfirstname@yourlastname.com">Matthew@mcclure.com</a>
+</footer>
+</html>

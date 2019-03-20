@@ -1,0 +1,139 @@
+*{box-sizing: border-box;}
+header, nav, main, footer {display: block;}
+h2, h3, h4, p, div, ul, dl{padding-left: 3em;
+							padding-right: 2em;}
+details {padding-left: 20%;
+			padding-right: 20%;
+			overflow: auto;}
+main{padding-left:0em;
+		padding-right:0em;
+		padding-bottom: 2em;
+		display: block;
+		margin-left: 200px;
+		background-color: #fef6c2;
+		}
+body     {  background-image: url("background.gif");
+			background: url("background.gif")right bottom;
+			background-color: #fcebb6; 
+           color: #221811;
+           font-family: Arial, Verdana, sans-serif;
+		  
+			}
+#wrapper {	background-color: #231814;
+			margin-left: auto;
+			margin-right: auto;
+			 width: 80%;
+			 min-width: 900px;
+			 max-width: 1280px;
+			 box-shadow: 5px 5px 5px #000000;
+			}
+#heroroad { background-image: url(heroroad.jpg);
+			background: url(heroroad.jpg) no-repeat;
+			background-size: 100%;
+			height: 250px;
+			padding-left: 0;
+			padding-right: 0;
+			padding-top: 0;
+			margin-left: 200px;
+			background-color: #fef6c2;}
+#heromugs { background-image: heromugs.jpg;
+			background-size: 100%;
+			height: 250px;
+			padding-left: 0;
+			padding-right: 0;
+			padding-top: 0;
+			margin-left: 200px;
+			background-color: #fef6c2;}
+#heroguitar { background-image: heroguitar.jpg;
+			background-size: 100%;
+			height: 250px;
+			padding-left: 0;
+			padding-right: 0;
+			padding-top: 0;
+			margin-left: 200px;
+			background-color: #fef6c2;}
+header	 {  float: center; 
+			background-color: #d2b48c;
+			color: #221811; }
+h1       { 
+		   line-height: 200%;
+		   background-image: url(javajamlogo.jpg);
+		   background: url(javajamlogo.jpg) no-repeat top left;
+           background-color: #d2b48c; 
+		   padding-top: 45px;
+		   padding-left: 50px;
+		   font-size: 3em;
+	       font: Georgia, "Times New Roman", serif;
+	       text-indent: 1em;
+	       text-align: center;
+		 }
+li		{color: #221811}
+
+	
+h2       { background-color: #fcebb6; 
+			
+           color: #221811; 
+	       font-family: Georgia, "Times New Roman", serif; 
+			font-weight: bold;}
+h3		{color: #221811}
+h4		 {background-color: #d2b48c;
+			text-transform: Uppercase;
+			border-bottom: 1px;
+			padding-bottom: 0px;
+			clear: left;
+		  font-size: 1.2em;
+		  padding-left: 10px;
+		  padding-bottom: 5px;}
+p		{color: #221811;
+		
+	       font-family: Georgia, "Times New Roman", serif;
+	       text-indent: 1em;}
+nav      { padding-top: 10px;
+			font-weight: bold;
+           word-spacing: 1em;
+           font-size: 1.5em;
+		   text-align: center;
+		   float: left; 
+		   width: 200px;
+		   list-style-type:none;
+		   }
+nav a    { text-decoration: none;
+			padding: 10px;
+			font-weight: bold;}
+nav a:link{ color: #fef6c2;}
+nav a:visited{color: #d2b48c;}
+nav a:hover{ color: #cc9933;}
+nav ul       { font-weight: bold;
+			margin-left: 0;
+			padding: 10px;
+			padding-left: 0px;}
+floatleft {float: left;
+			padding-right: 20px;
+			padding-bottom: 20px;}
+table {border-collapse: collapse;
+		align: center;}
+table tr:nth-child(odd) td{ background-color:#d2b48c;}
+form{padding: 2em;
+		}
+label{float: left;
+		display: block;
+		text-align: right;
+		width: 8em;
+		padding-right: 1em;}
+input, textarea{display: block;
+					margin-bottom: 1em;}
+audio{	display: block;
+		margin-top: 1em;
+		padding-left: 200px;}
+footer   { margin-left: 165px;
+			color: #333333;
+		   font-size: .6em;
+		   font-style: italic;
+			text-align: center;
+			background-color: #d2b48c;
+			padding-bottom:10px;
+			border-top: 2px;
+			border-color: #221811;
+			
+}
+#mySubmit{margin-left: 9.5em;}
